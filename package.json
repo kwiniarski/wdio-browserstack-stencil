@@ -1,0 +1,26 @@
+{
+  "name": "wdio-browserstack-stencil",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "wdio"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@wdio/browser-runner": "^8.35.1",
+    "@wdio/browserstack-service": "^8.35.1",
+    "@wdio/cli": "^8.35.1",
+    "@wdio/mocha-framework": "^8.35.0",
+    "@wdio/spec-reporter": "^8.32.4",
+    "@wdio/visual-service": "^4.1.0",
+    "tslib": "^2.6.2"
+  },
+  "packageManager": "pnpm@8.15.1",
+  "pnpm": {
+    "overrides": {
+      "typescript": "^4.9.5"
+    },
+    "peerDependencyRules": {}
+  }
+}

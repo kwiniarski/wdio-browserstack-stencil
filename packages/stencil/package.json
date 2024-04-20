@@ -1,0 +1,41 @@
+{
+  "name": "sc",
+  "version": "0.0.0",
+  "main": "../../dist/packages/sc/dist/index.cjs.js",
+  "module": "../../dist/packages/sc/dist/index.js",
+  "es2015": "../../dist/packages/sc/dist/esm/index.mjs",
+  "es2017": "../../dist/packages/sc/dist/esm/index.mjs",
+  "types": "../../dist/packages/sc/dist/types/index.d.ts",
+  "collection": "../../dist/packages/sc/dist/collection/collection-manifest.json",
+  "collection:main": "../../dist/packages/sc/dist/collection/index.js",
+  "unpkg": "../../dist/packages/sc/dist/sc/core.js",
+  "files": [
+    "../../dist/packages/sc/dist/",
+    "../../dist/packages/sc/loader/",
+    "../../dist/packages/sc/components/",
+    "../../dist/packages/sc/hydrate/"
+  ],
+  "publishConfig": {
+    "directory": "../../dist/packages/sc"
+  },
+  "scripts": {
+    "build": "stencil build --prod",
+    "dev": "stencil build --docs --dev --watch"
+  },
+  "dependencies": {
+    "@stencil/core": "4.15.0"
+  },
+  "devDependencies": {
+    "@stencil/angular-output-target": "^0.8.4",
+    "@stencil/react-output-target": "^0.5.3",
+    "@stencil/sass": "^3.0.11",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "puppeteer": "^22.6.3",
+    "sass": "^1.75.0",
+    "stencil-inline-svg": "^1.1.0",
+    "ts-node": "^10.9.2"
+  }
+}

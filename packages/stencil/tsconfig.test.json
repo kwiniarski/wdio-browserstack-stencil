@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "types": [
+      "node",
+      "mocha",
+      "expect-webdriverio",
+      "@wdio/globals/types",
+      "@wdio/mocha-framework",
+      "@wdio/browser-runner",
+      "@wdio/visual-service",
+      "@wdio/browserstack-service"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.*",
+    "**/jest.setup.ts"
+  ],
+  "include": [
+    "src",
+    "wdio.config.mts"
+  ]
+}

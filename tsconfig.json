@@ -1,0 +1,12 @@
+{
+  "references": [
+    {
+      "path": "./packages/stencil"
+    },
+    {
+      "path": "./tsconfig.wdio.json"
+    }
+  ],
+  "files": [],
+  "include": []
+}

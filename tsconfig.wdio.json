@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "experimentalDecorators": true,
+    "module": "NodeNext",
+    "target": "ES2020",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "types": [
+      "node",
+      "mocha",
+      "expect-webdriverio",
+      "@wdio/globals/types",
+      "@wdio/mocha-framework",
+      "@wdio/browser-runner",
+      "@wdio/visual-service",
+      "@wdio/browserstack-service"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.*",
+    "**/jest.setup.ts"    
+  ],
+  "include": [
+    "packages/*/src",
+    "wdio.config.mts"
+  ]
+}
